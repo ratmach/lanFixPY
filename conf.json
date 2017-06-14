@@ -1,8 +1,8 @@
 {
 	"ethernet": {
-		"lan": "Ethernet",
+		"lan": "Local Area Connection",
 		"mode": "static",
-		"ip": "192.168.100.95",
+		"ip": "192.168.100.96",
 		"netmask": "255.255.255.0",
 		"gateway": "192.168.100.1",
 		"DNS1": "8.8.8.8",
@@ -10,10 +10,15 @@
 	},
 	
 	"pc": {
-		"name": "---",
-		"workgroup": "---",
+		"user": "Admin",
+		"password": "7895123z",
+		"name": "Win2003Test",
+		"workgroup": "SUPHRAPL",
 		"disable_firewall": true
 	},
 	
+	"share": [
+		"E:/tmp", "E:/tmp1"
+	],
 	"pingcheck": ["192.168.100.1", "192.168.100.2"]
 }
